@@ -1,0 +1,76 @@
+.red {
+    color: red;
+}
+
+.cancel-button {
+    position: absolute;
+    top: 1rem;
+    background-color: var(--font-color-2);
+    right: 1rem;
+}
+
+.submit-button {
+    color: hsl(120, 100%, 30%);
+    border-color: hsl(120, 100%, 30%)
+}
+
+.form-section {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100dvh;
+    width: 100%;
+    background-color: hsla(0, 0%, 40%, 0.526);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    overflow: auto;
+    padding: 2rem;
+}
+
+.todo-form {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: var(--padding-2);
+
+    position: relative;
+    background-color: var(--font-color-2);
+
+    padding: var(--padding-1);
+    border: var(--border-1);
+    border-radius: 4px;
+}
+
+.todo-form>.cancel-button {
+    position: absolute;
+    top: 1rem;
+    background-color: var(--font-color-2);
+    right: 1rem;
+}
+
+.todo-form>div {
+    display: flex;
+    flex-direction: row nowrap;
+    gap: var(--padding-1);
+    justify-content: space-between;
+}
+
+.todo-form>div>button:last-of-type {
+    flex: 1;
+}
+
+.todo-form>h3 {
+    text-align: center;
+}
+
+.todo-form-buttons-div {
+    margin-top: var(--padding-1);
+}
+
+.todo-form>textarea {
+    resize: vertical;
+    line-height: 1.5;
+}

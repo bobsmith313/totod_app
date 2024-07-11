@@ -1,0 +1,38 @@
+.list-header {
+    text-align: center;
+    padding: var(--padding-1);
+}
+
+.todo-form-button {
+    display: block;
+    width: calc(100% - 2*1rem);
+    margin: 0 1rem 1rem 1rem;
+}
+
+.search-and-filter-todos {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: var(--padding-2);
+    justify-content: space-between;
+
+    margin: var(--padding-1);
+}
+
+.search-and-filter-todos>input {
+    flex: 1;
+}
+
+.search-and-filter-todos>p {
+    display: grid;
+    place-content: center;
+}
+
+.todos-container {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    gap: 2rem;
+    justify-content: space-evenly;
+}

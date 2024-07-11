@@ -1,0 +1,29 @@
+header {
+    background-color: var(--main-color);
+    text-align: center;
+}
+
+header nav {
+    text-align: left;
+    background-color: var(--second-color);
+    color: var(--font-color-2);
+    float: left;
+    width: 100%;
+}
+
+header>* {
+    padding: var(--padding-1);
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
